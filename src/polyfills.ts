@@ -28,15 +28,24 @@
 // import 'core-js/es6/math';
 // import 'core-js/es6/string';
 // import 'core-js/es6/date';
+<<<<<<< HEAD
+=======
+// import 'core-js/es6/array';
+>>>>>>> origin/master
 // import 'core-js/es6/regexp';
 // import 'core-js/es6/map';
 // import 'core-js/es6/weak-map';
 // import 'core-js/es6/set';
 
 /**
+<<<<<<< HEAD
  * If your app need to indexed by Google Search, your app require polyfills 'core-js/es6/array'
  * Google bot use ES5.
  * FYI: Googlebot uses a renderer following the similar spec to Chrome 41.
+=======
+ * If the application will be indexed by Google Search, the following is required.
+ * Googlebot uses a renderer based on Chrome 41.
+>>>>>>> origin/master
  * https://developers.google.com/search/docs/guides/rendering
  **/
 // import 'core-js/es6/array';
@@ -47,12 +56,15 @@
 /** IE10 and IE11 requires the following for the Reflect API. */
 // import 'core-js/es6/reflect';
 
+<<<<<<< HEAD
 
 /** Evergreen browsers require these. **/
 // Used for reflect-metadata in JIT. If you use AOT (and only Angular decorators), you can remove.
 import 'core-js/es7/reflect';
 
 
+=======
+>>>>>>> origin/master
 /**
  * Web Animations `@angular/platform-browser/animations`
  * Only required if AnimationBuilder is used within the application and using IE/Edge or Safari.
@@ -81,7 +93,10 @@ import 'core-js/es7/reflect';
 import 'zone.js/dist/zone';  // Included with Angular CLI.
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 /***************************************************************************************************
  * APPLICATION IMPORTS
  */

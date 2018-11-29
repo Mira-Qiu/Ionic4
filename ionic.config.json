@@ -1,7 +1,12 @@
 {
+<<<<<<< HEAD
   "name": "UserApp",
   "integrations": {
     "cordova": {}
   },
+=======
+  "name": "HW28",
+  "integrations": {},
+>>>>>>> origin/master
   "type": "angular"
 }

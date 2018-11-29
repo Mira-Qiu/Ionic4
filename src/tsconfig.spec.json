@@ -2,18 +2,28 @@
   "extends": "../tsconfig.json",
   "compilerOptions": {
     "outDir": "../out-tsc/spec",
+<<<<<<< HEAD
     "baseUrl": "./",
     "module": "commonjs",
+=======
+>>>>>>> origin/master
     "types": [
       "jasmine",
       "node"
     ]
   },
   "files": [
+<<<<<<< HEAD
     "test.ts"
   ],
   "include": [
     "polyfills.ts",
+=======
+    "test.ts",
+    "polyfills.ts"
+  ],
+  "include": [
+>>>>>>> origin/master
     "**/*.spec.ts",
     "**/*.d.ts"
   ]

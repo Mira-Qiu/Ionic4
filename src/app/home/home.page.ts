@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 import { UserService } from './../services/user.service';
 import { Component } from '@angular/core';
 import { NavController } from '@ionic/angular';
+=======
+import { Component } from '@angular/core';
+>>>>>>> origin/master
 
 @Component({
   selector: 'app-home',
@@ -8,6 +12,7 @@ import { NavController } from '@ionic/angular';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+<<<<<<< HEAD
   public persons: Array<any> = [];
 
   constructor(private navCtrl: NavController,
@@ -29,5 +34,10 @@ export class HomePage {
     const persons = await this.userService.getUsers();
     this.persons = persons.results;
     console.log(this.persons);
+=======
+
+  doSomething(){
+    console.log("do something");
+>>>>>>> origin/master
   }
 }
